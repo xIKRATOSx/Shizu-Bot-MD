@@ -136,7 +136,7 @@ ${text}
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] error, please try again*\n\n*- check that the link is similar to:*\n*◉ https://www.mediafire.com/file/pbabuzyc7i8ord5/TheMystic-Bot-MD-master_%25285%2529.zip/file*')}        
 break     
 
-case 'play': case 'play2':         
+case 'play': case 'play2': case 'song':         
 if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] MISSING SONG NAME PLEASE ENTER THE COMMAND PLUS THE NAME/TITLE OF A SONG* \n\n*—◉ EXAMPLE:*\n*${usedPrefix + command} Good Feeling - Flo Rida*`
 let vid = (await youtubeSearch(text)).video[0]
 if (!vid) throw '*[❗𝐈𝐍𝐅𝐎❗] SORRY I COULD NOT FIND THE AUDIO/VIDEO,TRY ANOTHER NAME/TITLE. *'
@@ -180,7 +180,7 @@ conn.sendHydrated(m.chat, `
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break      
 
-case 'play.1': case 'play.2':         
+case 'play.1': case 'play.2': case 'song':         
 if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] MISSING SONG NAME, PLEASE ENTER THE SONG NAME/TITLE OR LINK OF ANY SONG OR YOUTUBE VIDEO*\n\n*—◉ 𝙴XA𝙼𝙿𝙻E:\n#play.1 Good Feeling - Flo Rida*`
 try {
 let res = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=${lolkeysapi}&query=${text}`)
