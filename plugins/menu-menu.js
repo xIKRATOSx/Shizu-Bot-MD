@@ -25,13 +25,13 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╭══〘 ✯✯✯✯✯✯✯✯ 〙═╮
-║    ◉— *IKRATOS-BOT* —◉
+║    ◉— *BLACK-BOT* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ║➤ *HI, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-║➤ *Owner:* AHMAD ALI
-║➤ *NUMBER:* wa.me/923470027813
-║➤ *Bot ofc:* wa.me/48459064272
+║➤ *Owner:* Black-KDX
+║➤ *NUMBER:* wa.me/94775207710
+║➤ *Bot ofc:* wa.me/94702262806
 ║➤ *UPTIME:* ${uptime}
 ╰══╡✯✯✯✯✯✯✯✯╞══╯
 ..................
@@ -535,8 +535,8 @@ ${readMore}
 ┗━━━━━━━━━━━━━┛
 `.trim()
 let buttons = [
-{ buttonId: '#redes', buttonText: { displayText: '⍟𝗥𝗘𝗗𝗘𝗦⍟' }, type: 1 },
-{ buttonId: '#gruposofc', buttonText: { displayText: '⍟𝗚𝗥𝗨𝗣𝗢𝗦⍟' }, type: 1 }]
+{ buttonId: '#redes', buttonText: { displayText: '⍟REDES⍟' }, type: 1 },
+{ buttonId: '#gruposofc', buttonText: { displayText: '⍟GROUPS⍟' }, type: 1 }]
 //{ buttonId: '#infobot', buttonText: { displayText: '🐾 𝙸𝙽𝙵𝙾𝙱𝙾𝚃 🐾' }, type: 1 }]
 let buttonMessage = {
 image: image1,
@@ -551,7 +551,7 @@ externalAdReply: {
 showAdAttribution: true,
 mediaType: 'VIDEO',
 mediaUrl: null,
-title: '👑 𝗦𝗛𝗜𝗭𝗨 » 𝗕𝗢𝗧 👑',
+title: '👑 Black » KD 👑',
 body: null,
 thumbnail: img,
 sourceUrl: `https://chat.whatsapp.com/LwPNmhUV8P76isIyFgEK8E`

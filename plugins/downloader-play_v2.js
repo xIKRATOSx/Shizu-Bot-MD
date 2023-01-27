@@ -4,17 +4,17 @@ if (!text) throw `[❗𝐈𝐍𝐅𝐎❗] 𝙽𝙾𝙼𝙱𝚁𝙴 𝙳𝙴 �
 try {
 let res = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=${lolkeysapi}&query=${text}`)
 if (command == 'play.1') {
-conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴀᴜᴅɪᴏ...⏳_*`, m)  
+conn.reply(m.chat, `*_⏳Please wait processing your Audio...⏳_*`, m)  
 let json = await res.json()
 conn.sendFile(m.chat, json.result.audio, 'error.mp3', null, m, false, { mimetype: 'audio/mp4' })}
 if (command == 'play.2') {
-conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴠɪᴅᴇᴏ...⏳_*`, m)
+conn.reply(m.chat, `*_⏳Please wait processing your Video...⏳_*`, m)
 let json = await res.json()
 conn.sendFile(m.chat, json.result.video, 'error.mp4', `_Aqui esta tu video_`, m)}
 } catch (e) {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
+m.reply('*[❗INFO❗] ERORR, When Uploading*')
 }}
-handler.help = ['play.1' , 'play.2'].map(v => v + ' <texto>')
+handler.help = ['play.1' , 'play.2', 'song'].map(v => v + ' <texto>')
 handler.tags = ['downloader']
-handler.command = ['play.1', 'play.2']
+handler.command = ['play.1', 'play.2', 'song']
 export default handler

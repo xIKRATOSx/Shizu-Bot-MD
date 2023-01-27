@@ -9,17 +9,17 @@ const url = 'https://www.youtube.com/watch?v=' + videoId
 conn.sendHydrated(m.chat, `
 *◉— 𝐏𝐋𝐀𝐘 𝐃𝐎𝐂𝐔𝐌𝐄𝐍𝐓 —◉*
 
-📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
-📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}
-📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
-⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
-👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
+📌 *TITLE:* ${title}
+📇 *DESCRIPTION:* ${description}
+📆 *PUBLISHED:* ${publishedTime}
+⌚ *DURATION:* ${durationH}
+👀 *VIEWS:* ${viewH}
 `.trim(), author, thumbnail, `${url}`, '𝚄𝚁𝙻', null, null, [
-['𝐀𝐔𝐃𝐈𝐎', `${usedPrefix}yta.2 ${url}`],
-['𝐕𝐈𝐃𝐄𝐎', `${usedPrefix}ytv.2 ${url}`]
+['AUDIO', `${usedPrefix}yta.2 ${url}`],
+['VIDEO', `${usedPrefix}ytv.2 ${url}`]
 ], m)
 }catch(e){
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')
+m.reply('*[❗INFO❗] ERROR, When Uploading*')
 console.log(e)
 }}
 handler.command = /^play3|playdoc?$/i

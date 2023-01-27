@@ -10,15 +10,15 @@ const url = 'https://www.youtube.com/watch?v=' + videoId
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]
 const buttons = [
-{ buttonId: `#ytmp3 ${url}`, buttonText: { displayText: '🎵 𝐀𝐔𝐃𝐈𝐎 🎵' }, type: 1 },
-{ buttonId: `#ytmp4 ${url}`, buttonText: { displayText: '🎥 𝐕𝐈𝐃𝐄𝐎 🎥' }, type: 1 },
-{ buttonId: `#playlist ${text}`, buttonText: { displayText: '📋 𝐌𝐀𝐒 𝐑𝐄𝐒𝐔𝐋𝐓𝐀𝐃𝐎𝐒 📋' }, type: 1 }, ]    
-let texto1 = `*◉—⌈🔊 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐏𝐋𝐀𝐘 🔊⌋—◉*\n
-❏ 📌 *𝚃𝙸𝚃𝚄𝙻𝙾:* ${title}
-❏ 📆 *𝙿𝚄𝙱𝙻𝙸𝙲𝙰𝙳𝙾:* ${publishedTime}
-❏ ⌚ *𝙳𝚄𝚁𝙰𝙲𝙸𝙾𝙽:* ${durationH}
-❏ 👀 *𝚅𝙸𝚂𝚃𝙰𝚂:* ${viewH}
-❏ 📇 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* ${description}`.trim()
+{ buttonId: `#ytmp3 ${url}`, buttonText: { displayText: '🎵 Audio 🎵' }, type: 1 },
+{ buttonId: `#ytmp4 ${url}`, buttonText: { displayText: '🎥 Video 🎥' }, type: 1 },
+{ buttonId: `#playlist ${text}`, buttonText: { displayText: '📋 More results 📋' }, type: 1 }, ]    
+let texto1 = `*◉—⌈🔊 YOUTUBE PLAY 🔊⌋—◉*\n
+❏ 📌 *TITLE:* ${title}
+❏ 📆 *PUBLISHED:* ${publishedTime}
+❏ ⌚ *DURATION:* ${durationH}
+❏ 👀 *VIEWS:* ${viewH}
+❏ 📇 *DESCRIPTION:* ${description}`.trim()
 let buttonMessage = {
 "document": { url: "https://wa.me/34623442554" }, 
 "fileName": '❏ 🌿 ʀᴇᴘʀᴏᴅᴜᴄᴛᴏʀ ᴅᴇ ʏᴏᴜᴛᴜʙᴇ', 
@@ -41,8 +41,8 @@ contextInfo: {
 "sourceUrl": `https://github.com/Shizu-Hub/Shizu-Bot-MD` }}} 
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 } catch {
-m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')}}
-handler.help = ['play', 'play2'].map(v => v + ' <pencarian>')
+m.reply('*[❗INFO❗] ERROR, When uploading*')}}
+handler.help = ['play', 'play2', 'song'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
 handler.command = /^play2?$/i
 export default handler
