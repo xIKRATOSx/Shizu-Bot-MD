@@ -26,7 +26,7 @@ year: 'numeric'
  
 const sections = [
 {
-title: `𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗠𝗘𝗡𝗨𝗦`,
+title: `LIST MENU`,
 rows: [
       {title: "🥵 CREATOR 🥵", description: 'CONTACT THE CREATER', rowId: `${usedPrefix}creador`},
       {title: "🎁 ALL MENU 🎁", description: 'ALL BOT COMMANDS', rowId: `${usedPrefix}allmenu`},

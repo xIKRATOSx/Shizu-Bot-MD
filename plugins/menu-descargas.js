@@ -26,7 +26,7 @@ year: 'numeric'
  
 const sections = [
 {
-title: `𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗠𝗘𝗡𝗨𝗦`,
+title: `LIST MENU`,
 rows: [
       {title: "🥵 𝗖𝗥𝗘𝗔𝗗𝗢𝗥 🥵", description: '𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢 𝗗𝗘𝗟 𝗖𝗥𝗘𝗔𝗗𝗢𝗥', rowId: `${usedPrefix}creador`},
       {title: "🎁 𝙈𝙀𝙉𝙐 𝘾𝙊𝙈𝙋𝙇𝙀𝙏𝙊 🎁", description: '𝗘𝗦𝗧𝗘 𝗘𝗦 𝗘𝗟 𝗠𝗘𝗡𝗨 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗢 𝗗𝗘𝗟 𝗕𝗢𝗧', rowId: `${usedPrefix}allmenu`},
@@ -45,10 +45,10 @@ rows: [
 ]}, ] 
 let name = await conn.getName(m.sender)
 const listMessage = {
-text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
-𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦
+text: `*ミ💖 HI _${name}_ 💖彡*
+THERE... DOWNLOAD COMMANDS
 ┏━━━━━━━━━━━━━┓
-┃ *<𝗠𝗘𝗡𝗨 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦/>*
+┃ *<DOWNLOADER MENU/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣° ඬ⃟📥 _${usedPrefix}facebook *<enlace / link / url>*_
 ┣° ඬ⃟📥 _${usedPrefix}instagram *<enlace / link / url>*_
@@ -89,7 +89,7 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┣ ඬ⃟ 📥 _${usedPrefix}twitter *<enlace / link / url>*_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
-buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
+buttonText: "LIST MENU", 
 sections }
 
 conn.sendMessage(m.chat, listMessage)
