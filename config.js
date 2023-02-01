@@ -8,16 +8,16 @@ import axios from 'axios'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['923470027813', '👑 Ahmad Ali - Creador 👑', true],
-  ['19294515952']
+  ['94775207710', '👑 Black - KDX 👑', true],
+  ['94702262806']
 ] 
-global.suittag = ['923470027813'] 
-global.prems = ['923470027813','19294515952'] 
+global.suittag = ['94775207710'] 
+global.prems = ['94775207710','94702262806'] 
 
-global.packname = 'x_Ikratos_x'
-global.author = '⍟Ahmad » Ali⍟'
-global.wm = '⍟Ahmad » Ali⍟ V5.3'
-global.igfg = '⍟Ahmad » Ali⍟'
+global.packname = 'x_Black-KDX_x'
+global.author = '⍟Black » KDX⍟'
+global.wm = '⍟Black » KDX⍟ V5.3'
+global.igfg = '⍟Black » KDX⍟'
 global.wait = '*[❗] Wait, Processing...*'
 
 global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
@@ -437,14 +437,14 @@ global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
-global.gt = '⍟Ahmad » Ali⍟'
-global.mysticbot = '⍟Ahmad » Ali⍟'
+global.gt = '⍟Black » KDX⍟'
+global.mysticbot = '⍟Black » KDX⍟'
 global.md = 'https://github.com/xIKRATOSx/Shizu-Bot-MD'
 global.mysticbot = 'https://github.com/xIKRATOSx/Shizu-Bot-MD'
 global.waitt = '*[❗] Processing, Wait a moment...*'
 global.waittt = '*[❗] Processing, Wait a moment...*'
 global.waitttt = '*[❗] Processing, Wait a moment...*'
-global.nomorown = '923470027813'
+global.nomorown = '94775207710'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
 global.cmenub = '┊✦ '
@@ -459,8 +459,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*'
 global.htka = '*☪ ••••̩̩͙⊰•⭑*'
 global.comienzo = '• • ◕◕════'
 global.fin = '════◕◕ • •'
-global.botdate = `⫹⫺ Date :  ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}` //Asia/Jakarta
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}`//America/Los_Angeles
+global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Colombo').format('DD/MM/YY')}` //Asia/Colombo
+global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Colombo').format('HH:mm:ss')}`//Asia/Colombo
 global.fgif = {key: { participant : '0@s.whatsapp.net'}, message: { "videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999',  'gifPlayback': 'true',  'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu2.jpg')}}}
 global.multiplier = 99
 /*************************/
