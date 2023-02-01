@@ -23,7 +23,7 @@ try {
 m.reply(`*[❗] downloading your video, please wait a moment, this process can take between 2 ʏ 10 minutes depending on the length of the video...*`)
 let res = await facebookDl(args[0]).catch(async _ => await savefrom(args[0])).catch(_ => null)
 let url = res?.url?.[0]?.url || res?.url?.[1]?.url || res?.['720p'] || res?.['360p']
-conn.sendMessage(m.chat, { video: { url }, caption: res?.meta?.title || '*𝙰𝚀𝚄𝙸 𝙴𝚂𝚃𝙰 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾*' }, { quoted: m })
+conn.sendMessage(m.chat, { video: { url }, caption: res?.meta?.title || '*Made By Black-KDX*' }, { quoted: m })
 } catch (e) {
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] error, please try again*\n\n*- check that the link is similar to:*\n*◉* https://www.facebook.com/HolaSoySkull/videos/982580549178886/?app=fbl')} 
 break 
@@ -185,11 +185,11 @@ if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] MISSING SONG NAME, PLEASE ENTER THE 
 try {
 let res = await fetch(`https://api.lolhuman.xyz/api/ytplay2?apikey=${lolkeysapi}&query=${text}`)
 if (command == 'play.1') {
-conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴀᴜᴅɪᴏ...⏳_*`, m)  
+conn.reply(m.chat, `*_⏳Downloading your song please wait...⏳_*`, m)  
 let json = await res.json()
 conn.sendFile(m.chat, json.result.audio, 'error.mp3', null, m, false, { mimetype: 'audio/mp4' })}
 if (command == 'play.2') {
-conn.reply(m.chat, `*_⏳Sᴇ ᴇsᴛᴀ ᴘʀᴏᴄᴇsᴀɴᴅᴏ Sᴜ ᴠɪᴅᴇᴏ...⏳_*`, m)
+conn.reply(m.chat, `*_⏳Downloading your song please wait...⏳_*`, m)
 let json = await res.json()
 conn.sendFile(m.chat, json.result.video, 'error.mp4', `_𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭_`, m)}
 } catch {
@@ -197,7 +197,7 @@ m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, PLEASE TRY AGAIN*')}
 break  
 
 case 'playlist': case 'playlist2':         
-if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] MISSING SONG NAME, PLEASE ENTER THE SONG NAME/TITLE OR LINK OF ANY SONG OR YOUTUBE VIDEO*\n\n*—◉ 𝙴𝙹𝙴𝙼𝙿𝙻𝙾:*\n*${usedPrefix + command} Begin you*`    
+if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] MISSING SONG NAME, PLEASE ENTER THE SONG NAME/TITLE OR LINK OF ANY SONG OR YOUTUBE VIDEO*\n\n*—◉ EXAMPLE:*\n*${usedPrefix + command} Begin you*`    
 try {
 let search = await yts(args.join(" "))
 let listSerch = []
@@ -299,14 +299,14 @@ if (!text) throw `*[❗𝐈𝐍𝐅𝐎❗] MISSING TIKTOK LINK, PLEASE ENTRE TI
 if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*[❗𝐈𝐍𝐅𝐎❗] INNCORECT TIKTOK LINK, PLEASE ENTRE A TIKTOK LINK*\n\n*—◉ EXAMPLE:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
 let texto = `*[❗] @${m.sender.split`@`[0]} PLEASE WAIT UNTIL I SEND YOUR TIKTOK VIDEO*`
 try {
-let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: texto, contextInfo: { externalAdReply: { title: 'Ikratos-Bot-MD', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/xIKRATOSx/Shizu-Bot-MD' }, mentionedJid: [m.sender] }}}, { quoted: m })
+let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: texto, contextInfo: { externalAdReply: { title: 'Black-KD-MD', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/xIKRATOSx/Shizu-Bot-MD' }, mentionedJid: [m.sender] }}}, { quoted: m })
 let url = (await fetch(text)).url
 let res = await (await fetch(`https://api2.musical.ly/aweme/v1/aweme/detail/?aweme_id=${url.split('?')[0].split('/')[5]}`)).json()
 let data = res.aweme_detail.video.play_addr.url_list
 let meta = await getInfo(url).catch(_ => {})
 await conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id, mentions: [m.sender] })
 let buttons = [{ buttonText: { displayText: '𝙰𝚄𝙳𝙸𝙾' }, buttonId: `${usedPrefix}tomp3` }]
-conn.sendMessage(m.chat, { video: { url: data[data.length - 1] }, caption: '_Ikratos-Bot-MD_', footer: await shortUrl(data[data.length - 1]), buttons }, { quoted: m })
+conn.sendMessage(m.chat, { video: { url: data[data.length - 1] }, caption: '_Black-KD-MD_', footer: await shortUrl(data[data.length - 1]), buttons }, { quoted: m })
 } catch {
 try {
 let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: texto, contextInfo: { externalAdReply: { title: 'ᴛʜᴇ ᴍʏsᴛɪᴄ - ʙᴏᴛ', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/xIKRATOSx/Shizu-Bot-MD' }, mentionedJid: [m.sender] }}}, { quoted: m })
@@ -314,7 +314,7 @@ const { author: { nickname }, video, description } = await tiktokdl(args[0]).cat
 const url = video.no_watermark_raw || video.no_watermark || video.no_watermark_hd || video.with_watermark
 await conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id, mentions: [m.sender] })
 let buttons = [{ buttonText: { displayText: '𝙰𝚄𝙳𝙸𝙾' }, buttonId: `${usedPrefix}tomp3` }]
-conn.sendMessage(m.chat, { video: { url: url}, caption: '_Ikratos-Bot-MD_', footer: await shortUrl(url), buttons }, { quoted: m })
+conn.sendMessage(m.chat, { video: { url: url}, caption: '_Black-KD-MD_', footer: await shortUrl(url), buttons }, { quoted: m })
 } catch {
 await m.reply('*[❗𝐈𝐍𝐅𝐎❗] SORRY AN ERROR OCCURED WHILE DOWNLOADING YOUR VIDEO, PLEASE TRY AGAIN*')  
 }}    
