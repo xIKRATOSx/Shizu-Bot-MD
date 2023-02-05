@@ -1,7 +1,7 @@
 # `👑Black-KDX👑`
 
 <p align="center"> 
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&duration=4000&pause=1000&color=000000&background=FFFFFF00&width=442&height=70&lines=Black-KD+;A+Powerfull+Whatsapp+Bot;Created+By+Black-KDX" alt="Typing SVG" /></a>"
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&duration=4000&pause=1000&color=000000&background=FFFFFF00&width=442&height=70&lines=Black-KD-MD+;A+Powerfull+Whatsapp+Bot;Created+By+Black-KDX" alt="Typing SVG" /></a>"
 </p>
 
 ![Snake animation](https://github.com/GataNina-Li/GataNina-Li/blob/output/github-contribution-grid-snake.svg)
