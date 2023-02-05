@@ -74,8 +74,8 @@ TYPE THE FOLLOWING COMMANDS ONE BY ONE:
 ### `—◉ 💥 ACTIVATE IN ACIDICNODES 💥`
 <a href="https://billing.acidicnodes.ml/register?ref=nSzLjTPd" width="100" height="100" alt="acidicnodes"/></a>
 - TUTORIAL: [https://youtu.be/nbjvreJ0tUk](https://youtu.be/nbjvreJ0tUk)
-- PAGINA: [https://billing.acidicnodes.ml/register?ref=nSzLjTPd](https://billing.acidicnodes.ml/register?ref=nSzLjTPd)
-- SOPORTE: [https://whatsapp.acidicnodes.com](https://whatsapp.acidicnodes.com)
+- PAGE: [https://billing.acidicnodes.ml/register?ref=nSzLjTPd](https://billing.acidicnodes.ml/register?ref=nSzLjTPd)
+- MEDIUM: [https://whatsapp.acidicnodes.com](https://whatsapp.acidicnodes.com)
 
 ### `—◉ 📝 NOTES 📝`
 - IT IS POSSIBLE THAT THE BOT HAS SOME FAILURES, THEY WILL BE SOLVED AS THEY ARE DETECTED
