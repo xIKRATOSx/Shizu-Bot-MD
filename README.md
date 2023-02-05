@@ -1,7 +1,7 @@
-# `👑Shizu-Bot👑`
+# `👑Black-KDX👑`
 
 <p align="center"> 
-  <a href="https://github.com/Shizu-Hub"><img src="http://readme-typing-svg.herokuapp.com?font=Arial+black&color=DCC12E&lines=BIENVENIDO+A+;SHIZU-BOT;ESPERO+QUE+ESTE+BOT;SEA+DE+TU+AGRADO+:v+%F0%9F%91%8B" height="70px"
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&duration=4000&pause=1000&color=000000&background=FFFFFF00&width=442&height=70&lines=Black-KD+;A+Powerfull+Whatsapp+Bot;Created+By+Black-KDX" alt="Typing SVG" /></a>"
 </p>
 
 ![Snake animation](https://github.com/GataNina-Li/GataNina-Li/blob/output/github-contribution-grid-snake.svg)
