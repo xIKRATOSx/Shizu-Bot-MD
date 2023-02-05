@@ -9,7 +9,7 @@
   
 ### `—◉ 👑 DOUBTS ABOUT THE BOT?, CONTACT ME 👑`
   <p align="left">
-<a href="https://github.com/NeKosmic-NK"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&center=verdadero&vCenter=verdadero&lines=just+escr%C3%ADba+if+have+doubts." height="40px"
+<a href="https://github.com/NeKosmic-NK"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&center=verdadero&vCenter=verdadero&lines=just+write+if+have+doubts." height="40px"
 </p>
   
 <a href="http://wa.me/94775207710" target="blank"><img src="https://img.shields.io/badge/Black-KDX-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
