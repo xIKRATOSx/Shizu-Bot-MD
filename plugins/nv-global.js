@@ -21,6 +21,16 @@ if (!chat.isBanned && chat.audios && m.text.match(/(Bye|bye)/gi)) {
 let vn = './media/bye.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}   
+ 
+if (!chat.isBanned && chat.audios && m.text.match(/(Hmm|hmm)/gi)) {
+let vn = './media/hmm.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}   
+
+if (!chat.isBanned && chat.audios && m.text.match(/(Gn|Good night|gn|good night)/gi)) {
+let vn = './media/bye.mp3'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}   
     
 if (!chat.isBanned && chat.audios && m.text.match(/(anadieleimporta|a nadie le importa)/gi)) {
 let vn = './media/dylan1.mp3'
