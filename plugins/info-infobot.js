@@ -21,8 +21,8 @@ let speed = neww - old
 let info = `
 ╠═〘 BOT INFO 〙 ═
 ╠
-╠➥ [🤴🏻] CREATOR: *Black-KDX*
-╠➥ [#️⃣] NUMBER: *+94 77 520 7710*
+╠➥ [🤴🏻] CREATOR: *Sandaru*
+╠➥ [#️⃣] NUMBER: *+94 76 449 7078*
 ╠➥ [🎳] 𝙿𝚁𝙴𝙵𝙸𝙹𝙾: *${usedPrefix}*
 ╠➥ [🔐] PRIVATE CHATS: *${chats.length - groups.length}*
 ╠➥ [🦜] GROUP CHATS: *${groups.length}* 
