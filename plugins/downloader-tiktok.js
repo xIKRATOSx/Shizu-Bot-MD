@@ -4,7 +4,7 @@ import { tiktokdl, tiktokdlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, text, usedPrefix, command, args }) => {
 if (!text) throw `*Please enter tiltok link*\n\n*—◉ Example:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
 if (!/(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)) throw `*Link is not valid, Please enter a valid link*\n\n*—◉ Example:*\n*${usedPrefix + command} https://vm.tiktok.com/ZML42vSnn/*`
-let texto = `*[❗] @${m.sender.split`@`[0]} 𝙰𝙶𝚄𝙰𝚁𝙳𝙴 𝚄𝙽 𝙼𝙾𝙼𝙴𝙽𝚃𝙾 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾 𝙳𝙴 𝚃𝙸𝙺𝚃𝙾𝙺*`
+let texto = `*[❗] @${m.sender.split`@`[0]} WAIT A MOMENT UNTIL I SEND YOUR TIKTOK VIDEO*`
 try {
 let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: texto, contextInfo: { externalAdReply: { title: 'Made by - Black-KDX', body: null, thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD' }, mentionedJid: [m.sender] }}}, { quoted: m })
 let url = (await fetch(text)).url
@@ -23,7 +23,7 @@ await conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id, mentions
 let buttons = [{ buttonText: { displayText: 'AUDIO' }, buttonId: `${usedPrefix}tomp3` }]
 conn.sendMessage(m.chat, { video: { url: url}, caption: '_Made by ﹣ Black-KDX_', footer: await shortUrl(url), buttons }, { quoted: m })
 } catch {
-await m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙾 𝙻𝙰𝙼𝙴𝙽𝚃𝙾, 𝙾𝙲𝚄𝚁𝚁𝙸𝙾 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝙰𝙻 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝚂𝚄 𝚅𝙸𝙳𝙴𝙾, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*')  
+await m.reply('*[❗𝐈𝐍𝐅𝐎❗] SORRY, AN ERROR OCCURRED DOWNLOADING YOUR VIDEO, PLEASE TRY AGAIN*')  
 }}}
 handler.help = ['tiktok']
 handler.tags = ['downloader']
