@@ -5,7 +5,7 @@ let texto1 = `*https://github.com*`
 let buttonMessage= {
 'document': { url: `https://github.com/Shizu-Hub/Shizu-Bot-MD` },
 'mimetype': `application/${document}`,
-'fileName': `「  Hi I am Black-KDX 」`,
+'fileName': `「  Hi I am Xcoco Md 」`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
@@ -15,7 +15,7 @@ let buttonMessage= {
 'mediaUrl': 'https://github.com',
 'mediaType': 2,
 'previewType': 'pdf',
-'title': 'A powefull whatsapp Bot Created By Black-KDX⁩',
+'title': ' Created By *SANDARU*⁩',
 'body': wm,
 'thumbnail': imagen1,
 'sourceUrl': 'https://www.youtube.com/channel' }},
