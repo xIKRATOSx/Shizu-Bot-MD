@@ -12,8 +12,8 @@ let time = d.toLocaleTimeString(locale, {
 let _uptime = process.uptime() * 1000
 let datcov = await fetch('https://latam-api.vercel.app/api/covid19?apikey=nekosmic&q=world');
 	let CovidApi = await datcov.json();
-	var cotext = `┏「 Black-KDX 」┓
-┃⍟Black » KD⍟ V5.3
+	var cotext = `┏「 Xcoco Md」┓
+┃⍟Xcoco » Md⍟ V5.3
 ┗─━─━「 🌎 」━─━─┛\n\n`
 let uptime = clockString(_uptime) 
 let totalreg = Object.keys(global.db.data.users).length
@@ -78,9 +78,9 @@ let name = await conn.getName(m.sender)
 const listMessage = {
 text: `*╭─────────────────────❊*
 *│* *╭────────────────❊*
-*│* *│* *Bᴏᴛ Nᴀᴍᴇ :  BLACK - KD*
-*│* *│* *Bot creator: Black-KDX* 
-*│* *│* *Creater's number:* wa.me/94775207710*
+*│* *│* *Bᴏᴛ Nᴀᴍᴇ :  Xcoco Md*
+*│* *│* *Bot creator: Sandaru* 
+*│* *│* *Creater's number:* wa.me/94764497078*
 *│* *╰────────────────❊*
 *│*    *㊏───ɪɴғᴏ───㊏*
 *│* *╭─────────────────❊*
@@ -95,7 +95,7 @@ text: `*╭─────────────────────❊*
 *│* *╰─────────────────❊*
 *╰─────────────────────❊*`, footer: `${wm}`, pp,
 title: null,
-buttonText: "⍟LIST MENU⍟", 
+buttonText: "Xcoco Md", 
 sections }
 
 conn.sendMessage(m.chat, listMessage)
