@@ -7,62 +7,62 @@ let handler = async function (m, { text, usedPrefix, command }) {
 	let namae = conn.getName(m.sender)
 	const sections = [
 	{
-	title: "Selecciona Tu Edad Aqui!",
+	title: "Select Your Age Here!",
 	rows: [
-	    {title: "Años Random", rowId: '.reg ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
+	    {title: "", rowId: '.reg ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 	]
     },
     {
-	title: "ADULTO",
+	title: "ADULT",
 	rows: [
-	    {title: "30 Años", rowId: '.reg ' + namae + '.30 '},
-	    {title: "29 Años", rowId: '.reg ' + namae + '.29 '},
-	    {title: "28 Años", rowId: '.reg ' + namae + '.28 '},
-	{title: "27 Años", rowId: '.reg ' + namae + '.27 '},
-	{title: "26 Años", rowId: '.reg ' + namae + '.26 '},
-	{title: "25 Años", rowId: '.reg ' + namae + '.25 '},
-	{title: "24 Años", rowId: '.reg ' + namae + '.24 '},
-	{title: "23 Años", rowId: '.reg ' + namae + '.23 '},
-	{title: "22 Años", rowId: '.reg ' + namae + '.22 '},
-	{title: "21 Años", rowId: '.reg ' + namae + '.21 '}
+	    {title: "30 years", rowId: '.reg ' + namae + '.30 '},
+	    {title: "29 years", rowId: '.reg ' + namae + '.29 '},
+	    {title: "28 years", rowId: '.reg ' + namae + '.28 '},
+	{title: "27 years", rowId: '.reg ' + namae + '.27 '},
+	{title: "26 years", rowId: '.reg ' + namae + '.26 '},
+	{title: "25 years", rowId: '.reg ' + namae + '.25 '},
+	{title: "24 years", rowId: '.reg ' + namae + '.24 '},
+	{title: "23 years", rowId: '.reg ' + namae + '.23 '},
+	{title: "22 years", rowId: '.reg ' + namae + '.22 '},
+	{title: "21 years", rowId: '.reg ' + namae + '.21 '}
 	]
     },
     {
-	title: "JOVEN",
+	title: "YOUNG",
 	rows: [
-	    {title: "20 Años", rowId: '.reg ' + namae + '.20 '},
-	    {title: "19 Años", rowId: '.reg ' + namae + '.19 '},
-	    {title: "18 Años", rowId: '.reg ' + namae + '.18 '},
-	{title: "17 Años", rowId: '.reg ' + namae + '.17 '},
-	{title: "16 Años", rowId: '.reg ' + namae + '.16 '},
-	{title: "15 Años", rowId: '.reg ' + namae + '.15 '},
-	{title: "14 Años", rowId: '.reg ' + namae + '.14 '},
-	{title: "13 Años", rowId: '.reg ' + namae + '.13 '},
-	{title: "12 Años", rowId: '.reg ' + namae + '.12 '},
-	{title: "11 Años", rowId: '.reg ' + namae + '.11 '},
-	{title: "10 Años", rowId: '.reg ' + namae + '.10 '},
-	{title: "9 Años", rowId: '.reg ' + namae + '.9 '}
+	    {title: "20 years", rowId: '.reg ' + namae + '.20 '},
+	    {title: "19 years", rowId: '.reg ' + namae + '.19 '},
+	    {title: "18 years", rowId: '.reg ' + namae + '.18 '},
+	{title: "17 years", rowId: '.reg ' + namae + '.17 '},
+	{title: "16 years", rowId: '.reg ' + namae + '.16 '},
+	{title: "15 years", rowId: '.reg ' + namae + '.15 '},
+	{title: "14 years", rowId: '.reg ' + namae + '.14 '},
+	{title: "13 years", rowId: '.reg ' + namae + '.13 '},
+	{title: "12 years", rowId: '.reg ' + namae + '.12 '},
+	{title: "11 years", rowId: '.reg ' + namae + '.11 '},
+	{title: "10 years", rowId: '.reg ' + namae + '.10 '},
+	{title: "9 years", rowId: '.reg ' + namae + '.9 '}
 	]
     },
 ]
 
 const listMessage = {
-  text: `Por favor selecciona tu edad pulsando el boton...\n*Tu nombre:* ${conn.getName(m.sender)}\nQuieres poner otro mombre? Escribe *${usedPrefix + command} TuNombre.TusAños*`,
+  text: `Please select your age by clicking the button...\n*Your name:* ${conn.getName(m.sender)}\nDo you want to put another name? Writes *${usedPrefix + command} YourName.YourYears*`,
   footer: global.wm,
-  title: "━━━━「 Registro 」━━━━",
-  buttonText: "Pulsa Aqui!",
+  title: "━━━━「 Register 」━━━━",
+  buttonText: "Press here!",
   sections
 }
 
   let user = global.db.data.users[m.sender]
-  if (user.registered === true) throw `[💬] Ya estás registrado\nQuieres volver a registrarte? *${usedPrefix}unreg <NUMERO SN>*`
+  if (user.registered === true) throw `[💬] You are already registered\nDo you want to register again? *${usedPrefix}unreg <NS NUMBER>*`
   if (!Reg.test(text)) return conn.sendMessage(m.chat, listMessage, m)
   let [_, name, splitter, age] = text.match(Reg)
-  if (!name) throw 'El nombre no puede estar vacío (Letras)'
-  if (!age) throw 'La edad no puede estar vacía (Numeros)'
+  if (!name) throw 'The name cannot be empty (Letters)'
+  if (!age) throw 'Age cannot be empty (Numbers)'
   age = parseInt(age)
-  if (age > 30) throw 'Que viejo (。-`ω´-)'
-  if (age < 5) throw 'Los bebes no saben escribir ._.'
+  if (age > 30) throw 'How old (。-`ω´-)'
+  if (age < 5) throw 'Babies can not write ._.'
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
@@ -70,10 +70,10 @@ const listMessage = {
   let sn = createHash('md5').update(m.sender).digest('hex')
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
   m.reply(`
-━━━━ 「 *Registro Completado* 」━━━━
+━━━━ 「 *Registration Completed* 」━━━━
 ╭─• 〘 INFO 〙
-│✧ *Nombre:* ${name}
-│✧ *Edad:* ${age} Años
+│✧ *Name:* ${name}
+│✧ *Age:* ${age} Años
 │✧ *SN:* ${sn}
 ▣──────···
 `.trim())
