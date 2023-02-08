@@ -44,5 +44,5 @@ conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 m.reply('*[❗INFO❗] ERROR, When uploading*')}}
 handler.help = ['play', 'play2', 'song'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
-handler.command = /^play2|song$/i
+handler.command = /^play|play2|song$/i
 export default handler
