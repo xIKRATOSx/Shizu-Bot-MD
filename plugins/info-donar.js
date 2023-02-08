@@ -23,7 +23,7 @@ let donar =`
 *┃ YOU NEED MORE*
 *┃ INFORMATION AND* 
 *┃ TO THANK YOU<𝟹*
-*┃ wa.me/94775207710*
+*┃ wa.me/94764497078*
 *┗ ┅ ━━━━━━━━━ ┅ ━*
 `.trim()
 conn.sendHydrated(m.chat, donar, wm, null, 'https://www.paypal.me/NeKosmicOFC', '𝙿𝙰𝚈𝙿𝙰𝙻', null, null, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)}
