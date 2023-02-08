@@ -20,15 +20,15 @@ let { title, artists, album, genres, release_date } = res.metadata.music[0]
 let txt = `
 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 𝙳𝙴 𝙻𝙰 𝙱𝚄𝚂𝚀𝚄𝙴𝙳𝙰
 
-• 📌 𝚃𝙸𝚃𝚄𝙻𝙾: ${title}
-• 👨‍🎤 𝙰𝚁𝚃𝙸𝚂𝚃𝙰: ${artists !== undefined ? artists.map(v => v.name).join(', ') : 'No encontrado'}
-• 💾 𝙰𝙻𝙱𝚄𝙼: ${album.name || 'No encontrado'}
-• 🌐 𝙶𝙴𝙽𝙴𝚁𝙾: ${genres !== undefined ? genres.map(v => v.name).join(', ') : 'No encontrado'}
-• 📆 𝙵𝙴𝙲𝙷𝙰 𝙳𝙴 𝙻𝙰𝙽𝚉𝙰𝙼𝙸𝙴𝙽𝚃𝙾: ${release_date || 'No encontrado'}
+• 📌 TITLE: ${title}
+• 👨‍🎤 ARTIST: ${artists !== undefined ? artists.map(v => v.name).join(', ') : 'No encontrado'}
+• 💾 ALBUM: ${album.name || 'No encontrado'}
+• 🌐 GENRES: ${genres !== undefined ? genres.map(v => v.name).join(', ') : 'No encontrado'}
+• 📆 RELEASE DATE: ${release_date || 'No encontrado'}
 `.trim()
 fs.unlinkSync(`./tmp/${m.sender}.${ext}`)
 m.reply(txt)
-} else throw '*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝚄𝙽 𝙰𝚄𝙳𝙸𝙾*'
+} else throw '*[❗𝐈𝐍𝐅𝐎❗] RESPOND A AUDIO*'
 }
-handler.command = /^quemusica|quemusicaes|whatmusic$/i
+handler.command = /^quemusica|findmusic|whatmusic$/i
 export default handler
