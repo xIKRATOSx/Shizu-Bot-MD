@@ -1,9 +1,9 @@
 let handler = async (m, { conn, text }) => {
 
 let [nomor, pesan, jumlah] = text.split('|')
-if (!nomor) throw '*[ ⚠️ ] PLEASE ENTER THE NUMBER TO WHICH THE MESSAGES WILL BE SPAMED!*\n*USE CORRECT:*\n*—◉ #spamwa numero|texto|cantidad*\n*EXAMPLE:*\n*—◉ #spamwa 94999999999|responde :v|25*'
-if (!pesan) throw '*[ ⚠️ ] PLEASE ENTER THE MESSAGE TO DO THE SPAM!*\n*USE CORRECT:*\n*—◉ #spamwa numero|texto|cantidad*\n*EXAMPLE:*\n*—◉ #spamwa 94999999999|responde :v|25*'
-if (jumlah && isNaN(jumlah)) throw '*[ ⚠️ ] AMOUNT MUST BE A NUMBER!*\n*USE CORRECT:*\n*—◉ #spamwa numero|texto|cantidad*\n*EXAMPLE:*\n*—◉ #spamwa 94999999999|responde :v|25*'
+if (!nomor) throw '*[ ⚠️ ] PLEASE ENTER THE NUMBER TO WHICH THE MESSAGES WILL BE SPAMED!*\n*USE CORRECT:*\n*—◉ #spamwa number|text|amount*\n*EXAMPLE:*\n*—◉ #spamwa 94999999999|responde :v|25*'
+if (!pesan) throw '*[ ⚠️ ] PLEASE ENTER THE MESSAGE TO DO THE SPAM!*\n*USE CORRECT:*\n*—◉ #spamwa number|text|amount*\n*EXAMPLE:*\n*—◉ #spamwa 94999999999|responde :v|25*'
+if (jumlah && isNaN(jumlah)) throw '*[ ⚠️ ] AMOUNT MUST BE A NUMBER!*\n*USE CORRECT:*\n*—◉ #spamwa number|text|amount*\n*EXAMPLE:*\n*—◉ #spamwa 94999999999|responde :v|25*'
 
 let fixedNumber = nomor.replace(/[-+<>@]/g, '').replace(/ +/g, '').replace(/^[0]/g, '62') + '@s.whatsapp.net'
 let fixedJumlah = jumlah ? jumlah * 1 : 10
