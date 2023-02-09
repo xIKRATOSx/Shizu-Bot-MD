@@ -10,7 +10,7 @@ try {
 let name = await conn.getName(m.sender)
 let str = `
 *ミ💖 HI _${name}_ 💖彡*
-*<𝐌𝐄𝐍𝐔 𝐀𝐔𝐃𝐈𝐎𝐒/>*
+*<AUDIO MENU/>*
 *- Write the following words or phrases without any prefix (#, /, *, .)*
 ° ඬ⃟🔊 _Gali_
 ° ඬ⃟🔊 _Gucci_
@@ -53,8 +53,8 @@ let str = `
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/Shizu-Hub/Shizu-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
-['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/sandaru07', 'GITHUB', null, null, [
+['XCOCO MENU', '/menu']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
