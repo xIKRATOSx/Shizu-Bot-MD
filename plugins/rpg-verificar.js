@@ -9,7 +9,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 	{
 	title: "SELECT YOUR AGE!",
 	rows: [
-	    {title: "Años Random", rowId: '.reg ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
+	    {title: "Random Years", rowId: '.reg ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 	]
     },
     {
@@ -47,10 +47,10 @@ let handler = async function (m, { text, usedPrefix, command }) {
 ]
 
 const listMessage = {
-  text: `Por favor selecciona tu edad pulsando el boton...\n*Tu nombre:* ${conn.getName(m.sender)}\nQuieres poner otro mombre? Escribe *${usedPrefix + command} TuNombre.TusAños*`,
+  text: `Please select your age by pressing the button...\n*NAME:* ${conn.getName(m.sender)}\POWERD BY XCOCO*${usedPrefix + command} TuNombre.TusAños*`,
   footer: global.wm,
-  title: "━━━━「 Register ✅」━━━━",
-  buttonText: "Click Here!",
+  title: "━━━━「 FOR REGISTER XCOCO ✅」━━━━",
+  buttonText: "CLICK ME!",
   sections
 }
 
@@ -70,11 +70,11 @@ const listMessage = {
   let sn = createHash('md5').update(m.sender).digest('hex')
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
   m.reply(`
-━━━━ 「 *Register Complete ✅ * 」━━━━
+━━━━ 「 _Register Complete_ ✅  」━━━━
 ╭─• 〘 INFO 〙
-│✧ *Number:* ${name}
-│✧ *Age:* ${age} Años
-│✧ *SN:* ${sn}
+│✧ *Number ♻:* ${name}
+│✧ *Age ♻:* ${age} YEARS OLD
+│✧ *ID ♻:* ${sn}
 ▣──────···
 `.trim())
 }
