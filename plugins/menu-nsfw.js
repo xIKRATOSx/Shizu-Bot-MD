@@ -45,10 +45,10 @@ rows: [
 ]}, ] 
 let name = await conn.getName(m.sender)
 const listMessage = {
-text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
+text: `*ミ💖 HI _${name}_ 💖彡*
 𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗡𝗦𝗙𝗪
 ┏━━━━━━━━━━━━━┓
-┃ *<🔞𝗖𝗢𝗠𝗔𝗡𝗗𝗢𝗦 +18🔞/>*
+┃ *<🔞COMMANDS +18🔞/>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣ 🔞 _${usedPrefix}pack_
 ┣ 🔞 _${usedPrefix}pack2_
@@ -85,7 +85,7 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┣ 🔞 _${usedPrefix}videolesbixxx_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
-buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
+buttonText: "xcoco md", 
 sections }
 
 conn.sendMessage(m.chat, listMessage)
