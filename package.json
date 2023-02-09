@@ -1,5 +1,5 @@
 {
-    "name": "Shizu-Bot",
+    "name": "Xcoco MD",
     "version": "1.0.0",
     "description": "Follow me on instagram: @itx_ahmad.ali",
     "main": "index.js",
@@ -37,6 +37,7 @@
         "axios": "^0.24.0",
         "cfonts": "^2.10.0",
         "chalk": "^5.0.0",
+        "express": "latest",
         "cheerio": "^1.0.0-rc.10",
         "colors": "1.4.0",
         "country-locale-map": "^1.8.11",
