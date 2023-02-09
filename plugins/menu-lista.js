@@ -48,7 +48,7 @@ rows: [
       {title: "🔍 SEARCHER MENU 🔍", description: 'SEARCHING COMMANDS', rowId: `${usedPrefix}menubusquedas`},
       {title: "⚒️ TOOLS MENU ⚒️", description: 'TOOL COMMANDS', rowId: `${usedPrefix}menuherramientas`},
       {title: "👑 OWNER MENU 👑", description: 'OWNER COMMANDS', rowId: `${usedPrefix}menucreador`},
-      {title: "👑 𝗦𝗘𝗥 𝗕𝗢𝗧 👑", description: 'ABOUT BOT', rowId: `${usedPrefix}menuserbot`},
+      {title: "👑 ABOUT BOT 👑", description: 'ABOUT BOT', rowId: `${usedPrefix}menuserbot`},
  	]
     },
     {
@@ -64,9 +64,9 @@ rows: [
 	       	]
                 },
 	    {
-        title: "𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥𝗘𝗦",
+        title: "HELPERS",
 	rows: [    
-	      {title: "𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥𝗘𝗦", description: '𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥𝗘𝗦 OF THE BOT', rowId: `${usedPrefix}colaboradores`},
+	      {title: "HELPER", description: 'HELPERS OF THE BOT', rowId: `${usedPrefix}colaboradores`},
 	       	]
                 },
     {
