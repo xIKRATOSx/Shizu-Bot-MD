@@ -72,7 +72,7 @@ const connectionOptions = {
 printQRInTerminal: true,
 auth: state,
 logger: P({ level: 'silent'}),
-browser: ['Xcoco MD','Safari','1.0.0']
+browser: ['Xcoco MD','Opera','1.0.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
