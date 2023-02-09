@@ -45,10 +45,10 @@ rows: [
 ]}, ] 
 let name = await conn.getName(m.sender)
 const listMessage = {
-text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
-𝗕𝗜𝗘𝗡𝗩𝗘𝗡𝗜𝗗𝗢 𝗔𝗟 𝗠𝗘𝗡𝗨 𝗚𝗥𝗨𝗣𝗢𝗦
+text: `*ミ💖 HI _${name}_ 💖彡*
+XCOCO GROUP COMMANDS
 ┏━━━━━━━━━━━━━┓
-┃ *<𝗠𝗘𝗡𝗨 𝗚𝗥𝗨𝗣𝗢>*
+┃ *<GROUP MENU>*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣° ඬ⃟💎 _${usedPrefix}add *<numero>*_
 ┣° ඬ⃟💎 _${usedPrefix}kick *<@tag>*_
@@ -74,7 +74,7 @@ text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
 ┣° ඬ⃟💎 _${usedPrefix}resetlink_
 ┗━━━━━━━━━━━━━┛`, footer: `${wm}`, pp,
 title: null,
-buttonText: "𝙇𝙄𝙎𝙏𝘼 𝘿𝙀 𝙈𝙀𝙉𝙐𝗦", 
+buttonText: "LIST MENU", 
 sections }
 
 conn.sendMessage(m.chat, listMessage)
