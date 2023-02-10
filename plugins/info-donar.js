@@ -4,20 +4,20 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 let name = await conn.getName(m.sender)
 let donar =`
 *┏ ┅ ━━━━━━━━━ ┅ ━*
-*┇          「 DONATE XCOCO✅ 」*
+*┇          「⫹⫺ DONATE ⫹⫺」*
 *┣ ┅ ━━━━━━━━━ ┅ ━*
-*┃ 𝙷I ${name} 💙*
+*┃ HEY BRO ${name} 💙*
 *┃*
 *┃ 👉🏻 HERE SOME DATA*
 *┃ IN CASE YOU LIKE TO SUPPORT :𝟹*
 *┃*
-*┃ ➤ CLUE:* 
+*┃ ⫹⫺ CLUE:* 
 *┃ 646180192175788481*
-*┃ ➤ BANK: STP* 
-*┃ ➤ BENEFICIARY:* 
+*┃ ⫹⫺ BANK: STP* 
+*┃ ⫹⫺ BENEFICIARY:* 
 *┃ BRUNO NEPHEW* 
-*┃ ➤ CONCEPT: SUPPORT*  
-*┃ ➤ 𝙿𝙰𝚈𝙿𝙰𝙻: https://www.paypal.me/SANDARU*
+*┃ ⫹⫺ CONCEPT: SUPPORT*  
+*┃ ⫹⫺ PAYPAL: https://www.paypal.me/XCOCO*
 *┃*
 *┃ 👉🏻 CONTACT ME IF*  
 *┃ YOU NEED MORE*
