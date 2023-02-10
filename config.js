@@ -11,8 +11,8 @@ global.owner = [
   ['94764497078', '👑 SANDARU 👑', true],
   ['94764497078']
 ] 
-global.suittag = ['94775207710'] 
-global.prems = ['94775207710','94702262806'] 
+global.suittag = ['94764497078'] 
+global.prems = ['94764497078','904461999'] 
 
 global.packname = 'Xcoco'
 global.author = '⍟Xcoco » Md⍟'
