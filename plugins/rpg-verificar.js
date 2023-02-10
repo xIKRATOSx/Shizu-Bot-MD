@@ -49,7 +49,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 const listMessage = {
   text: `Please select your age by pressing the button...\n*NAME:* ${conn.getName(m.sender)}\POWERD BY XCOCO*${usedPrefix + command} TuNombre.TusAños*`,
   footer: global.wm,
-  title: "━━━━「 FOR REGISTER XCOCO ✅」━━━━",
+  title: "━━━━「⫹⫺ FOR REGISTER XCOCO ⫹⫺」━━━━",
   buttonText: "CLICK ME!",
   sections
 }
@@ -71,10 +71,10 @@ const listMessage = {
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.fromMe ? conn.user.jid : m.sender
   m.reply(`
 ━━━━ 「 _Register Complete_ ✅  」━━━━
-╭─• 〘 INFO 〙
-│✧ *Number ♻:* ${name}
-│✧ *Age ♻:* ${age} YEARS OLD
-│✧ *ID ♻:* ${sn}
+╭─• 〘 ＩＮＦＯ 〙
+│➤ *Number :* ${name}
+│➤ *Age :* ${age} YEARS OLD
+│➤ *ID :* ${sn}
 ▣──────···
 `.trim())
 }
