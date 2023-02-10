@@ -54,7 +54,7 @@ rows: [
     {
         title: "REDES SOCIAL",
 	rows: [    
-	      {title: "REDES", description: '𝗦𝗜𝗚𝗨𝗘𝗠𝗘 𝗘𝗡 𝗧𝗢𝗗𝗔𝗦 𝗠𝗜𝗦 𝗥𝗘𝗗𝗘𝗦', rowId: `${usedPrefix}redes`},
+	      {title: "REDES", description: 'SOCIAL NETWORKS', rowId: `${usedPrefix}redes`},
                 ]
 	        },
     {
