@@ -3,7 +3,7 @@ var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.present
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let texto1 = `*https://github.com*`
 let buttonMessage= {
-'document': { url: `https://github.com/Shizu-Hub/Shizu-Bot-MD` },
+'document': { url: `https://github.com/sandaru07` },
 'mimetype': `application/${document}`,
 'fileName': `「  Hi I am Xcoco Md 」`,
 'fileLength': 99999999999999,
@@ -12,10 +12,10 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com',
+'mediaUrl': 'https://github.com/sandaru07',
 'mediaType': 2,
 'previewType': 'pdf',
-'title': ' Created By *SANDARU*⁩',
+'title': ' Created By SANDARU⁩',
 'body': wm,
 'thumbnail': imagen1,
 'sourceUrl': 'https://www.youtube.com/channel' }},
