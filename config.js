@@ -8,16 +8,16 @@ import axios from 'axios'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['94775207710', '👑 Black - KDX 👑', true],
-  ['94702262806']
+  ['94764497078', '👑 SANDARU 👑', true],
+  ['94764497078']
 ] 
 global.suittag = ['94775207710'] 
 global.prems = ['94775207710','94702262806'] 
 
-global.packname = 'x_Black-KDX_x'
-global.author = '⍟Black » KDX⍟'
-global.wm = '⍟Black » KDX⍟ V5.3'
-global.igfg = '⍟Black » KDX⍟'
+global.packname = 'Xcoco'
+global.author = '⍟Xcoco » Md⍟'
+global.wm = '⍟Xcoco » Md⍟ V5.3'
+global.igfg = '⍟Xcoco » Md⍟'
 global.wait = '*[❗] Wait, Processing...*'
 
 global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
