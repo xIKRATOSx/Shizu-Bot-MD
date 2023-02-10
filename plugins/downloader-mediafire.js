@@ -6,10 +6,10 @@ try {
 let res = await mediafiredl(args[0])
 let { url, url2, filename, ext, aploud, filesize, filesizeH } = await res
 let caption = `
-*📓 𝙽𝙾𝙼𝙱𝚁𝙴:* ${filename}
-*📁 𝙿𝙴𝚂𝙾:* ${filesizeH}
-*📄 𝚃𝙸𝙿𝙾:* ${ext}
-*⏳ 𝙴𝚂𝙿𝙴𝚁𝙴 𝙴𝙽 𝙻𝙾 𝚀𝚄𝙴 𝙴𝙽𝚅𝙸𝙾 𝚂𝚄 𝙰𝚁𝙲𝙷𝙸𝚅𝙾. . . .* 
+*📓 NAME:* ${filename}
+*📁 SIZE:* ${filesizeH}
+*📄 PATH:* ${ext}
+*⏳ PLEASE WAIT. . . .* 
 `.trim()
 m.reply(caption)
 await conn.sendFile(m.chat, url, filename, '', m, null, { mimetype: ext, asDocument: true })
