@@ -26,21 +26,21 @@ year: 'numeric'
  
 const sections = [
 {
-title: `𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗠𝗘𝗡𝗨𝗦`,
+title: `LIST`,
 rows: [
-      {title: "ꨄ︎𝗦𝗛𝗜𝗭𝗨-𝗛𝗨𝗕ꨄ︎", description: '𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢 𝗗𝗘𝗟 𝗖𝗥𝗘𝗔𝗗𝗢𝗥', rowId: `${usedPrefix}donar`},
-      {title: "✪𝗛𝗜𝗥𝗢✪ ", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}hiro`},
-      {title: "✪𝗗𝗔𝗠𝗜𝗔𝗡✪", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}damian`},
-      {title: "<𝘅𝗗>", description: '𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗼', rowId: `${usedPrefix}xd`},
+      {title: "SANDARU NETHSARA", description: 'CONTACT ME', rowId: `${usedPrefix}donar`},
+      {title: "NIMESH OFFICIAL", description: 'CONTACT', rowId: `${usedPrefix}hiro`},
+      {title: "SALITHA DEVITH", description: 'CONTACT', rowId: `${usedPrefix}damian`},
+      {title: "BLACK-BAT", description: 'CONTACT', rowId: `${usedPrefix}xd`},
 ]}, ] 
 let name = await conn.getName(m.sender)
 const listMessage = {
-text: `*ミ💖 𝗛𝗢𝗟𝗔 _${name}_ 💖彡*
+text: `*ミ💖 HI _${name}_ 💖彡*
 Contacto: +1 (508) 293-9236
 Gmail: TheH2SO4@protonmail.com
 PayPal: ////`, footer: `${wm}`, pp,
 title: null,
-buttonText: "𝗟𝗜𝗦𝗧𝗔 𝗗𝗘 𝗖𝗢𝗟𝗔𝗕𝗢𝗥𝗔𝗗𝗢𝗥𝗘𝗦", 
+buttonText: "HELPERS", 
 sections }
 
 conn.sendMessage(m.chat, listMessage)
