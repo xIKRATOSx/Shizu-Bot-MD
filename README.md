@@ -1,4 +1,4 @@
-# `🔥 SANDARU NETHSARA 🔥`
+# `🔥 SANDARU 🔥`
 
 <p align="center"> 
  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Arial&duration=4000&pause=1000&color=000000&background=FFFFFF00&width=442&height=70&lines=Black-KD-MD+;A+Powerfull+Whatsapp+Bot;Created+By+Black-KDX" alt="Typing SVG" /></a>"
@@ -7,14 +7,14 @@
 ![Snake animation](https://github.com/GataNina-Li/GataNina-Li/blob/output/github-contribution-grid-snake.svg)
 </div>
   
-### `—◉ 👑 TROUBLE ABOUT THE BOT?, CONTACT ME 🇱🇰`
+### `—◉TROUBLE ABOUT THE BOT? CONTACT ME 🇱🇰`
   <p align="left">
 <a href="https://github.com/NeKosmic-NK"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=14&duration=3000&color=ABF7BB&center=verdadero&vCenter=verdadero&lines=just+write+if+have+doubts." height="40px"
 </p>
   
-<a href="http://wa.me/94764497078" target="blank"><img src="https://img.shields.io/badge/Black-KDX-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://wa.me/94764497078" target="blank"><img src="https://img.shields.io/badge/Xcoco-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-<a href="https://chat.whatsapp.com/Eec9Dd1uVd90Ac0U8mTgUh" target="red"><img src="https://img.shields.io/badge/Dark-Side-25D366?style=for-the-badge&logo=whatsapp&logoColor=red" />
+<a href="https://chat.whatsapp.com/Eec9Dd1uVd90Ac0U8mTgUh" target="red"><img src="https://img.shields.io/badge/Support-25D366?style=for-the-badge&logo=whatsapp&logoColor=red" />
 </a>
   
 
@@ -86,10 +86,10 @@ TYPE THE FOLLOWING COMMANDS ONE BY ONE:
 - Black-KDX IS NOT RESPONSIBLE FOR THE USE, NUMBERS, PRIVACY AND CONTENT SENT, USED OR MANAGED BY YOU OR THE BOT
 
 ## `BOT CONTRIBUTORS`
-  <a href="https://github.com/theh2so4"><img src="https://github.com/theh2so4.png" width="100" height="100" alt="theh2so4"/></a>
-<a href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="100" height="100" alt="BrunoSobrino"/></a>
+  <a href="https://github.com/sandaru07"><img src="https://github.com/theh2so4.png" width="100" height="100" alt="theh2so4"/></a>
+<a href="https://github.com/"><img src="https://github.com/BrunoSobrino.png" width="100" height="100" alt="BrunoSobrino"/></a>
 
 ## `EDITOR AND OWNER OF THE BOT` 
-<a href="https://github.com/Shizu-Hub"><img src="https://github.com/Shizu-Hub.png" width="300" height="300" alt="Shizu"/></a>
+<a href="https://github.com/sandaru07"><img src="https://github.com/Shizu-Hub.png" width="300" height="300" alt="Shizu"/></a>
 
 `Xcoco Md _ By SANDARU`
