@@ -8,11 +8,11 @@ import axios from 'axios'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['447710173736', 'FACEBOOK OFC', true],
-  ['447710173736']
+  ['923247653527', 'FACEBOOK OFC', true],
+  ['923466056497']
 ] 
-global.suittag = ['447710173736'] 
-global.prems = ['447710173736','904461999'] 
+global.suittag = ['923247653527'] 
+global.prems = ['923466056497','923247653527'] 
 
 global.packname = 'Xcoco'
 global.author = '⍟Xcoco » Md⍟'
@@ -444,7 +444,7 @@ global.mysticbot = 'https://github.com'
 global.waitt = '*[❗] Processing, Wait a moment...*'
 global.waittt = '*[❗] Processing, Wait a moment...*'
 global.waitttt = '*[❗] Processing, Wait a moment...*'
-global.nomorown = '94775207710'
+global.nomorown = '923247653527'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
 global.cmenub = '┊✦ '
