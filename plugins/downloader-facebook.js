@@ -23,7 +23,7 @@ case "facebook3": case "fb3": case "facebookdl3": case "fbdl3":
 let vio = await fetch(`https://api.violetics.pw/api/downloader/facebook?apikey=beta&url=${args[0]}`)  
 let vioo = await vio.json()
 let videovio = `${vioo.result.hd.url || vioo.result.sd.url}`
-await conn.sendFile(m.chat, videovio, `error.mp4`, '*Made By BLack-KDX*', m)
+await conn.sendFile(m.chat, videovio, `error.mp4`, '*Made By NAWAB-XD*', m)
 break   
 case "facebook4": case "fb4": case "facebookdl4": case "fbdl4":           
 const { result } = await facebookdl(args[0]).catch(async _ => await facebookdlv2(args[0]))
