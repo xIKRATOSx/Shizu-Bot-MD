@@ -20,6 +20,10 @@
 
 <p align="hihg">   
 <a href="https://instagram.com/shizu.bot" target="_blank"> <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=yellow" target="_blank"></a>
+ 
+ #### SCAN QR CODE HERE
+ 
+<p align="center"><a href="https://replit.com/@xIKRATOSx/session-creator"> <img src="https://img.shields.io/badge/RUN%20ON%20REPLIT-blue?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
   
 > NUMBERS ARE NOT BOTS AND NUMBERS-BOTS ARE NOT ALLOWED IN THE GROUP
 
